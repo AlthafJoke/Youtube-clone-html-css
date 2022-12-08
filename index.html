@@ -9,9 +9,35 @@
       href="https://fonts.googleapis.com/css?family=Roboto"
       rel="stylesheet"
     />
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>youtube</title>
   </head>
   <body>
+    <header class="header container-fluid">
+        <a href="#">
+            <img src="./static/image/YouTube-Logo.wine.svg" alt="youtube-logo" class="youtube-logo">
+        </a>
+        <form class="search-bar">
+            <input type="search" class="search-input " placeholder="search" aria-label="search">
+            <button type="submit" class="search-btn">
+                <img src="./static/image/search_black_24dp.svg" alt="search">
+            </button>
+        </form>
+        <div class="menu-icons">
+            <a href="">
+                <img src="./static/image/video_call_black_24dp.svg" alt="add-video">
+            </a>
+            <a href="">
+                <img src="./static/image/apps_black_24dp.svg" alt="apps">
+            </a>
+            <a href="">
+                <img src="./static/image/notifications_black_24dp.svg" alt="notification">
+            </a>
+            <a href="">
+                <img class="menu-channel-icon" src="http://unsplash.it/36/36?gravity=center" alt="your channel">
+            </a>
+        </div>
+    </header>
     <div class="categories">
       <section class="category-section">
         <button class="category active">All</button>
@@ -507,5 +533,6 @@
         </article>
       </section>
     </div>
+
   </body>
 </html>
